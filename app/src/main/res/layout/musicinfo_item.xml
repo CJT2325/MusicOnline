@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:background="@color/colorAccent"
+    android:layout_marginBottom="2dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_muisc"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="16dp"
+        android:src="@drawable/zz"
+        app:civ_border_color="#323232"
+        app:civ_border_width="1dp" />
+
+    <TextView
+        android:id="@+id/tv_muiscauthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@id/image_muisc"
+        android:gravity="center_vertical"
+        android:text="author"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_muiscname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_muiscauthor"
+        android:layout_toRightOf="@id/image_muisc"
+        android:gravity="center_vertical"
+        android:text="musicName"
+        android:textSize="16sp" />
+</RelativeLayout>

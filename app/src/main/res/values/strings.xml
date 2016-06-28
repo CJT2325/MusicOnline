@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">音乐列表</string>
+    <string name="action_settings">Settings</string>
+    <string name="url">http://music.sise.cn/upload/2016/04/17/4ba68b6f3f663df5df6a1e8f18132c34.mp3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>
